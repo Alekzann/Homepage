@@ -1,0 +1,16 @@
+.education {
+    padding-top: 20px;
+}
+
+.education__box {
+    margin: 10px;
+    max-width: 1000px;
+}
+
+.education__list {
+    list-style: none;
+}
+
+.education__listItem {
+    font-style: italic;
+}

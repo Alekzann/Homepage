@@ -1,0 +1,41 @@
+.table {
+    max-width: 400px;
+    color: #492424;
+    background: rgb(238, 238, 238);
+    border-collapse: collapse;
+    margin: 5 auto;
+}
+
+.table__caption {
+    margin: 4px auto;
+    max-width: 250px;
+    background-color: #333;
+    color: #01f9f1;
+    border-radius: 4px;
+}
+
+.table__cell {
+    border: 1px solid rgb(95, 94, 94);
+    text-align: center;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.table__cell--header {
+    max-width: 1000px;
+    color: #090505;
+    background: rgb(125, 224, 229);
+}
+
+.travel__tableBox {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.table__row:nth-child(even) {
+    background: rgb(152, 238, 243);
+}
+
+.table__cell:hover {
+    background-color: rgb(142, 195, 198);
+}

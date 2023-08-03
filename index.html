@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trochę o mnie Oleksandr Riaboshapka</title>
+    <link rel="icon" href="img/hp.png">
+    <meta property="og:image" content="img/share.png">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/list.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/education.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="js/script.js"></script>
+    <script defer src="js/script.practice.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+    <header class="header">
+        <h1 class="header__title">Oleksandr Riaboshapka</h1>
+        <img class="header__img" id="toJa" height="300" width="300" src="https://i.postimg.cc/8PFNMfvP/IMG-1359.jpg"
+            alt="Olek">
+    </header>
+    <nav class="navigation">Co mamy na tej stronie:</nav>
+
+    <ul class="list">
+        <li><a class="list__navigation" href="#toJa">To ja</a></li>
+        <li><a class="list__navigation" href="#miejsceUrodzenia">Miejsce urodzenia</a></li>
+        <li><a class="list__navigation" href="#wykształcenie">Wykształcenie</a></li>
+        <li><a class="list__navigation" href="#jaIPolska">Ja i Polska</a></li>
+        <li><a class="list__navigation" href="#podróże">Moje ostatnie podróże</a></li>
+    </ul>
+    <main>
+
+        <button class="button">Zmień tło na <span class="js-changeColor">ciemne</span></button>
+        <article>
+            <h2 class="heading" id="miejsceUrodzenia">Miejsce i data urodzenia</h2>
+            <p>Urodziłem się na <span>Ukarainie</span>. <br>W świetnym mieście Charków
+                w 1991 roku 24 lipca.<br> Mieszkałem w dzielnicy: "Saltovka" od której, niestety,
+                teraz mało co zostało.
+            </p>
+        </article>
+
+        <article class="education" id="wykształcenie">
+            <h2 class="education__head heading">Wykształcenie</h2>
+            <div class="education__box"> Skończyłem szkołe w 2013 roku. Po szkole zacząłem studiować w uniwersytecie.
+                <p> W wyniku mam dwa zawody po wykształceniu:</p>
+                <ul class="education__list">
+                    <li class="education__listItem">Inżynier ciepłowych i atomowych stacji</li>
+                    <li class="education__listItem">Inżynier produkcji samochodowej</li>
+                </ul>
+            </div>
+        </article>
+        <article>
+            <h3 class="heading" id="jaIPolska">Ja w Polsce</h3>
+            <p>Przyjechałem do Polski w <b>2016 roku</b> do miasta Częstochowy i zacząłem pracować na produkcji plandek,
+                przepracowałem tu przez 6 lat. Pracowałem nie daremnie, uczyłem polskiego języka i nawiązywałem
+                znajomości.
+                Poliubiłem Polskę i polaków, już prawie sam jestem Polakiem(zostało nieco parę miesięcy do dostania
+                obywatelstwa
+                Polskiego).
+                Z czasem zrozumiałem że praca na produkcji nie ma żadnych perspektyw, oprócz tego zrozumiałem że ta
+                praca mi
+                <strong>bardzo</strong> obrzydła, dlatego zdecydowałem kupić ten kurs by zmienić swój zawód na
+                <em>o wiele ciekawszy</em>.
+            </p>
+        </article>
+        <article>
+            <h3 class="heading">Lubię podróżować</h3>
+            <div class="travel__tableBox">
+                <table class="table" id="podróże">
+                    <caption class="table__caption">Moję podróże za ostatnie 6 lat</caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope=col>Kraj</th>
+                        <th class="table__cell table__cell--header" scope=col>Miasto</th>
+                        <th class="table__cell table__cell--header" scope=col>Rok</th>
+                        <th class="table__cell table__cell--header" scope=col>Transport</th>
+                        <th class="table__cell table__cell--header" scope=col>Cena podróży</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope=row>Francja</th>
+                        <td class="table__cell">Paryż</td>
+                        <td class="table__cell">2017</td>
+                        <td class="table__cell">Autokar</td>
+                        <td class="table__cell">500$</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope=row>Egypt</th>
+                        <td class="table__cell">Sharm-El-Sheikh</td>
+                        <td class="table__cell">2017</td>
+                        <td class="table__cell">Samolot</td>
+                        <td class="table__cell">700$</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope=row>Czechy</th>
+                        <td class="table__cell">Praha</td>
+                        <td class="table__cell">2018</td>
+                        <td class="table__cell">Samochód</td>
+                        <td class="table__cell">300$</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope=row>Włochy</th>
+                        <td class="table__cell">Wenecja</td>
+                        <td class="table__cell">2018</td>
+                        <td class="table__cell">Autokar</td>
+                        <td class="table__cell">400$</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope=row>Turcja</th>
+                        <td class="table__cell">Antalia</td>
+                        <td class="table__cell">2020</td>
+                        <td class="table__cell">Samolot</td>
+                        <td class="table__cell">1100$</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope=row>Austria</th>
+                        <td class="table__cell">Wiedeń</td>
+                        <td class="table__cell">2021</td>
+                        <td class="table__cell">Samochód</td>
+                        <td class="table__cell">200$</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope=row>Nie wszystko</th>
+                        <td class="table__cell" colspan="4">Daleko nie wszystko! Za długo pisać...</td>
+
+                    </tr>
+                </table>
+            </div>
+        </article>
+    </main>
+    <footer class="footer">Spodziewam się że nie bardzo brzydko czyta się mój polski 😁
+        Copyright by Me.
+    </footer>
+</body>
+
+</html>
